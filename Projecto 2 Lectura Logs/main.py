@@ -43,7 +43,7 @@ with open("D:\Github\MiniP Python\Projecto 2 Lectura Logs\logs.txt", 'r') as fil
                 listIps.append([f"{ip}", 1,fechaformateada])
 
 
-with open("results.csv", mode='w') as wFile:
+with open("D:/Github/MiniP Python/Projecto 2 Lectura Logs/results.csv", mode='w') as wFile:
     writer = csv.writer(wFile, delimiter='|')
     for n in range(len(listIps)):
         writer.writerow(listIps[n])
