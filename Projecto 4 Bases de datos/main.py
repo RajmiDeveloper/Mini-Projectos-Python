@@ -11,3 +11,4 @@ for bd in cur:
     print(bd)
 
 conect.close()
+
